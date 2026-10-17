@@ -1,4 +1,3 @@
-
 ---
 title: "Cicada 3301: The Internet Puzzle Nobody Has Fully Explained"
 description: "Cryptography, hidden messages, real-world clues, and the mysterious organization behind one of the internet's most famous puzzles."
