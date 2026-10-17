@@ -1,0 +1,10 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{background:#0f1416;color:#d4dcde}body{font-family:system-ui,sans-serif}
+:focus-visible{outline:2px solid #e9c46a;outline-offset:3px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+.prose-story{font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:1.2rem;line-height:1.8;max-width:42rem}
+.prose-story p,.prose-story ul,.prose-story ol,.prose-story blockquote{margin:1.2em 0}
+.prose-story h2{font-size:1.7rem;line-height:1.25;margin:2em 0 .5em;color:#fff;font-weight:700}
+.prose-story a{color:#e9c46a;text-decoration:underline}.prose-story ul{list-style:disc;padding-left:1.4em}
+.prose-story blockquote{border-left:3px solid #e9c46a;padding-left:1em;color:#8b9a9e}
+.card img{transition:transform .5s}.card:hover img{transform:scale(1.04)}

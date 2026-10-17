@@ -1,0 +1,1 @@
+import Link from "next/link";export default function NF(){return <div className="py-24 text-center"><h1 className="font-serif text-5xl text-white">Nothing here</h1><p className="mt-3 text-mute">This page doesn't exist or was moved.</p><Link className="mt-6 inline-block text-lamp underline" href="/">Back to the latest stories</Link></div>}

@@ -1,0 +1,12 @@
+---
+title: "Headline"
+description: "Under 160 characters."
+category: horror
+tags: [tag-one]
+author: Your Name
+date: 2026-10-16
+status: draft
+image: /images/your-file.svg
+alt: Describe the image
+---
+Write in Markdown.
