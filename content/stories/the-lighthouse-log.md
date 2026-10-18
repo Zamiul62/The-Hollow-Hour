@@ -8,7 +8,7 @@ author: Editorial Team
 date: 2026-10-10
 status: published
 featured: true
-image: /images/the-lighthouse-log.svg
+image: /images/lighthouse-log.jpg
 alt: Dark teal gradient suggesting fog over the sea
 ---
 *This is a work of fiction written for The Hollow Hour.*
