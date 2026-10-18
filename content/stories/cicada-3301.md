@@ -6,7 +6,7 @@ tags: [puzzle, internet, cryptography]
 author: Editorial Team
 date: 2026-10-17
 status: published
-image: /images/cicada-3301.svg
+image: /images/cicada-3301.jpg
 alt: A dark, cryptic digital atmosphere representing the Cicada 3301 internet mystery
 sources:
   - {title: "The Guardian: Cicada 3301 and the hardest puzzle on the internet", url: "https://www.theguardian.com/technology/2014/jan/10/cicada-3301-i-tried-the-hardest-puzzle-on-the-internet-and-failed-spectacularly"}
