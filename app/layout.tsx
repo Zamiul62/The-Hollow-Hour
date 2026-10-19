@@ -1,4 +1,4 @@
-import "./globals.css";import type {Metadata} from "next";import Link from "next/link";import {SITE,CATEGORIES} from "@/lib/site";
+import { Analytics } from "@vercel/analytics/next";import "./globals.css";import type {Metadata} from "next";import Link from "next/link";import {SITE,CATEGORIES} from "@/lib/site";
 export const metadata:Metadata={metadataBase:new URL(SITE.url),title:{default:`${SITE.name}: ${SITE.tagline}`,template:`%s | ${SITE.name}`},description:SITE.tagline,openGraph:{siteName:SITE.name,type:"website"},twitter:{card:"summary_large_image"}};
 export default function Root({children}:{children:React.ReactNode}){
  const ld={"@context":"https://schema.org","@graph":[{"@type":"Organization",name:SITE.name,url:SITE.url},{"@type":"WebSite",name:SITE.name,url:SITE.url,potentialAction:{"@type":"SearchAction",target:`${SITE.url}/search?q={q}`,"query-input":"required name=q"}}]};
@@ -12,4 +12,4 @@ export default function Root({children}:{children:React.ReactNode}){
  <main id="main" className="mx-auto max-w-6xl px-4 py-8">{children}</main>
  <footer className="mt-16 border-t border-slate"><div className="mx-auto flex max-w-6xl flex-wrap gap-x-6 gap-y-2 px-4 py-8 text-sm text-mute">
  {["about","contact","privacy","terms","editorial-policy","corrections","fiction-and-fact"].map(p=><Link key={p} href={`/${p}`} className="hover:text-white">{p.replace(/-/g," ")}</Link>)}
- <span className="w-full">© {new Date().getFullYear()} {SITE.name}. Fiction is always labeled as fiction.</span></div></footer></body></html>}
+ <span className="w-full">© {new Date().getFullYear()} {SITE.name}. Fiction is always labeled as fiction.</span></div></footer><Analytics /></body></html>}
