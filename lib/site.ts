@@ -1,5 +1,5 @@
 export const SITE={name:"The Hollow Hour",tagline:"True scares, unsolved mysteries and stories you'll want to send to someone.",
-url:process.env.NEXT_PUBLIC_SITE_URL||"http://localhost:3000",adsEnabled:process.env.NEXT_PUBLIC_ADS_ENABLED==="true",adClient:process.env.NEXT_PUBLIC_ADSENSE_CLIENT||"",contactEmail:"hello@example.com"};
+url:process.env.NEXT_PUBLIC_SITE_URL||"https://the-hollow-hour.vercel.app",adsEnabled:process.env.NEXT_PUBLIC_ADS_ENABLED==="true",adClient:process.env.NEXT_PUBLIC_ADSENSE_CLIENT||"",contactEmail:"hello@example.com"};
 // Edit this list to add, rename or remove categories. No other code changes needed.
 export const CATEGORIES=[
 {slug:"horror",name:"Horror & True Scary Stories",desc:"Eerie encounters, haunted places and experiences people still can't explain."},
