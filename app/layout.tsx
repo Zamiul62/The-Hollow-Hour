@@ -1,5 +1,5 @@
 import { Analytics } from "@vercel/analytics/next";import "./globals.css";import type {Metadata} from "next";import Link from "next/link";import {SITE,CATEGORIES} from "@/lib/site";
-export const metadata:Metadata={metadataBase:new URL(SITE.url),title:{default:`${SITE.name}: ${SITE.tagline}`,template:`%s | ${SITE.name}`},description:SITE.tagline,openGraph:{siteName:SITE.name,type:"website"},twitter:{card:"summary_large_image"}};
+export const metadata:Metadata={metadataBase:new URL(SITE.url),title:{default:`${SITE.name}: ${SITE.tagline}`,template:`%s | ${SITE.name}`},description:SITE.tagline,verification:{google:"QoAA0Y7pMGFdUUrWbBNTG_iW4sNWXENhaYkGuvmcEo8"},openGraph:{siteName:SITE.name,type:"website"},twitter:{card:"summary_large_image"}};
 export default function Root({children}:{children:React.ReactNode}){
  const ld={"@context":"https://schema.org","@graph":[{"@type":"Organization",name:SITE.name,url:SITE.url},{"@type":"WebSite",name:SITE.name,url:SITE.url,potentialAction:{"@type":"SearchAction",target:`${SITE.url}/search?q={q}`,"query-input":"required name=q"}}]};
  return <html lang="en"><body className="min-h-screen">
