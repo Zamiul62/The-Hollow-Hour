@@ -9,5 +9,6 @@ export const CATEGORIES=[
 {slug:"dark-history",name:"Dark History",desc:"Disturbing, forgotten and unusual events from the past."},
 {slug:"internet-mysteries",name:"Internet Mysteries",desc:"Strange online discoveries and digital puzzles."},
 {slug:"fiction",name:"Fiction & Creepypasta",desc:"Original horror and suspense. Always labeled as fiction."},
-{slug:"discoveries",name:"Mind-Blowing Discoveries",desc:"Science and facts that make you want to know more."}];
+{slug:"discoveries",name:"Mind-Blowing Discoveries",desc:"Science and facts that make you want to know more."},
+{slug:"lost-civilizations",name:"Lost Civilizations",desc:"Vanished societies, forgotten cities and ancient cultures whose stories still fascinate us."}];
 export const cat=(s:string)=>CATEGORIES.find(c=>c.slug===s);
